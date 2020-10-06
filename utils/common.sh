@@ -80,8 +80,8 @@ QTRPI_ZIP="qtrpi-${DEVICE_NAME}_qt-${QT_VERSION}.zip"
 #QTRPI_BASE_URL='http://www.qtrpi.com/downloads'
 #QTRPI_SYSROOT_URL="$QTRPI_BASE_URL/sysroot/qtrpi-sysroot-minimal-latest.zip"
 #QTRPI_MINIMAL_URL="$QTRPI_BASE_URL/qtrpi/$DEVICE_NAME/$QTRPI_ZIP"
-QTRPI_SYSROOT_URL="http://localhost:8080/sysroot-minimal-latest.zip"
-QTRPI_MINIMAL_URL="http://localhost:8080/qtrpi-rpi3_qt-5.6.2.zip"
+QTRPI_SYSROOT_URL="http://127.0.0.1:8080/sysroot-minimal-latest.zip"
+QTRPI_MINIMAL_URL="http://127.0.0.1:8080/qtrpi-rpi3_qt-5.6.2.zip"
 
 QTRPI_CURL_OPT=''
 
